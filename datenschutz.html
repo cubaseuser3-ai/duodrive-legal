@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Duo Drive – Datenschutz</title>
+<style>
+  :root { --bg:#0f172a; --surface:#1e293b; --line:#334155; --t1:#f8fafc; --t2:#cbd5e1; --t3:#94a3b8; --accent:#3b82f6; }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--t2); font:16px/1.6 -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif; }
+  main { max-width: 760px; margin: 0 auto; padding: 40px 16px 64px; }
+  h1 { color:var(--t1); font-size: 30px; margin: 0 0 4px; }
+  h2 { color:var(--t1); font-size: 20px; margin: 36px 0 8px; }
+  .sub { color:var(--t3); margin: 0 0 28px; }
+  a { color: var(--accent); }
+  table { width:100%; border-collapse: collapse; margin: 12px 0; font-size: 15px; }
+  th, td { text-align:left; vertical-align: top; padding: 10px 12px; border-bottom: 1px solid var(--line); }
+  th { color: var(--t1); font-weight: 600; background: var(--surface); }
+  .box { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 16px 18px; }
+  @media (max-width: 600px) { table, thead, tbody, tr, th, td { display:block; } thead { display:none; } td { border:0; padding: 4px 0; } tr { border-bottom:1px solid var(--line); padding: 10px 0; } }
+</style>
+</head>
+<body>
+<main>
+<h1>Datenschutzerklärung Duo Drive</h1>
+<p class="sub">Stand: 4. November 2026 · <a href="privacy.html">English</a></p>
+
+<div class="box">
+<strong style="color:var(--t1)">Kurz gesagt:</strong> Duo Drive hat kein Benutzerkonto, keine Werbung, kein Tracking und
+keine eigenen Server. Was die App über dich weiss (Ziele, Favoriten, Parkplatz, Fahrten, Einstellungen), bleibt auf
+deinem Gerät. Für einzelne Funktionen schickt die App das Nötigste an die unten genannten Dienste.
+</div>
+
+<h2>Anbieter</h2>
+<p>MyTech Support GmbH, Schweiz<br>E-Mail: <a href="mailto:support@mytech.support">support@mytech.support</a></p>
+
+<h2>Daten, die nur auf deinem Gerät bleiben</h2>
+<p>Letzte und gespeicherte Ziele, Zuhause und Arbeit, Parkplatz, Fahrten, Favoriten, Radiofavoriten und Podcast-Abos,
+Startseite und alle Einstellungen. Sie werden nicht an uns übertragen. Wenn du die App löschst, sind sie weg.</p>
+
+<h2>Berechtigungen</h2>
+<table>
+<thead><tr><th>Berechtigung</th><th>Wofür</th></tr></thead>
+<tbody>
+<tr><td>Standort (auch im Hintergrund)</td><td>Karte, Navigation, Tempo, Wetter, Parkplatz; im Hintergrund nur, damit die Führung bei dunklem Bildschirm weiterläuft.</td></tr>
+<tr><td>Mikrofon und Spracherkennung</td><td>Ziel per Sprache sagen. Die Spracherkennung macht Apple (auf dem Gerät oder bei Apple, nach den Regeln von Apple).</td></tr>
+<tr><td>Apple Music</td><td>Anzeigen und Steuern der Musik, Mixe, Lieblingstitel.</td></tr>
+<tr><td>Kontakte</td><td>Kontakte der Gruppe „Auto“ als Favoriten zum Anrufen.</td></tr>
+<tr><td>Kalender und Erinnerungen</td><td>Termine und offene Erinnerungen anzeigen, vorlesen, zum Termin navigieren.</td></tr>
+<tr><td>Home (HomeKit)</td><td>Die gewählte Szene beim Ankommen zu Hause starten.</td></tr>
+<tr><td>Bluetooth</td><td>Verbindung zur eigenen Kopfanzeige (ESP32-Display) im Auto, verschlüsselt und gekoppelt.</td></tr>
+</tbody>
+</table>
+<p>Alle Berechtigungen sind freiwillig und lassen sich in den iOS-Einstellungen jederzeit entziehen.</p>
+
+<h2>Dienste, an die Daten gehen</h2>
+<table>
+<thead><tr><th>Dienst</th><th>Was</th><th>Wofür</th></tr></thead>
+<tbody>
+<tr><td>Apple (Karten, Apple Music, Siri, Spracherkennung, iTunes-Suche, Podcast-Charts)</td><td>Suchbegriffe, Standort und Route bei Kartenfunktionen, Spracheingaben</td><td>Suche, Routen, Verkehr, Musik, Podcasts. Es gilt die <a href="https://www.apple.com/legal/privacy/">Datenschutzrichtlinie von Apple</a>.</td></tr>
+<tr><td>OSRM / OpenStreetMap (routing.openstreetmap.de, ersatzweise router.project-osrm.org)</td><td>Koordinaten von Start, Zwischenzielen und Ziel einer Route</td><td>Spurangaben an Kreuzungen</td></tr>
+<tr><td>Open-Meteo (api.open-meteo.com)</td><td>Ungefährer Standort (Koordinaten)</td><td>Wetter und Vorhersage</td></tr>
+<tr><td>radio-browser.info</td><td>Suchbegriffe für Radiosender</td><td>Sendersuche und Senderliste</td></tr>
+<tr><td>Radiosender und Podcast-Anbieter</td><td>Technische Verbindungsdaten (IP-Adresse) beim Abspielen</td><td>Stream bzw. Episode abspielen, Senderlogo laden</td></tr>
+<tr><td>Google Favicon-Dienst</td><td>Adresse der Website eines Radiosenders</td><td>Senderlogo, wenn der Sender keines liefert</td></tr>
+</tbody>
+</table>
+<p>Bei jeder Verbindung sehen diese Dienste technisch bedingt deine IP-Adresse. Wir erhalten von ihnen keine Daten über
+dich und geben keine Daten zu Werbezwecken weiter. Die Daten werden nicht mit deiner Identität verknüpft.</p>
+
+<h2>Kopfanzeige (ESP32)</h2>
+<p>Wenn du sie einschaltest, schickt die App Abbiegehinweis, Distanz, Tempo und Ankunftszeit per Bluetooth direkt an
+dein Display im Auto. Die Verbindung ist gekoppelt und verschlüsselt; nichts davon verlässt das Auto.</p>
+
+<h2>Deine Rechte</h2>
+<p>Du kannst jederzeit Auskunft, Berichtigung oder Löschung verlangen (Schweizer DSG, DSGVO). Da wir keine Daten über
+dich speichern, betrifft das in der Regel nur deine E-Mails an uns. Schreib an
+<a href="mailto:support@mytech.support">support@mytech.support</a>.</p>
+
+<h2>Quellen</h2>
+<p>Spurdaten © <a href="https://www.openstreetmap.org/copyright">OpenStreetMap-Mitwirkende</a> (ODbL).
+Wetterdaten von <a href="https://open-meteo.com/">Open-Meteo.com</a> (CC BY 4.0).
+Senderverzeichnis von <a href="https://www.radio-browser.info/">radio-browser.info</a>.
+Karten von Apple.</p>
+
+<h2>Änderungen</h2>
+<p>Ändert sich etwas an der App, passen wir diese Seite an. Es gilt die jeweils hier veröffentlichte Fassung.</p>
+</main>
+</body>
+</html>
